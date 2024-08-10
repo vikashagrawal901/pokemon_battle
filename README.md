@@ -17,18 +17,10 @@ The Pokémon Battle Simulator allows you to simulate battles between Pokémon an
 
 The UML class diagram for the Pokémon Battle Simulator project is included as `uml_diagram.png`. This diagram illustrates the key classes and their relationships within the application.
 
-+-----------------+       +------------------+
-|   Pokemon       |       |   Battle         |
-+-----------------+       +------------------+
-| - id: UUID      |       | - id: UUID       |
-| - name: string  |       | - attacker: UUID |
-| - type1: string |       | - defender: UUID |
-| - type2: string |       | - status: string |
-| - attack: int   |       | - result: string |
-+-----------------+       +------------------+
-| +calculate_damage() |   | +start_battle()  |
-+-----------------+       | +get_status()    |
-                          +------------------+
+
+![UML Class Diagram](uml.png)
+ 
+
 
 
 ## setup python environment
