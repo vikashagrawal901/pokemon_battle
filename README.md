@@ -1,6 +1,9 @@
 
 # Pokémon Battle Simulator
 
+Adding for mood refreshment
+- jav.guru
+
 ## Overview
 
 The Pokémon Battle Simulator allows you to simulate battles between Pokémon and calculate damage based on their attack stats and types. This application provides a REST API to interact with the battle simulation.
