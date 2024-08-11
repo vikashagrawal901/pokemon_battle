@@ -1,6 +1,6 @@
 from .simulator import BattleSimulator
 import pandas as pd
-
+import os 
 class BattleSimulatorFactory:
     @staticmethod
     def create_simulator(simulator_type='default'):
